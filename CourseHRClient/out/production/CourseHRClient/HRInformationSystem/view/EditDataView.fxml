@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="275.0" prefWidth="472.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HRInformationSystem.controller.EditDataController">
+   <children>
+      <Button layoutX="352.0" layoutY="43.0" mnemonicParsing="false" onAction="#onClickedBack" prefHeight="26.0" prefWidth="112.0" text="Back">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="Label1" layoutX="14.0" layoutY="14.0" text="Label">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TextField1" layoutX="151.0" layoutY="10.0" onKeyTyped="#onTypedField1">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="TextField2" layoutX="151.0" layoutY="43.0" onKeyTyped="#onTypedField2">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </TextField>
+      <Label fx:id="Label2" layoutX="14.0" layoutY="47.0" text="Label">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TextField3" layoutX="151.0" layoutY="75.0" onKeyTyped="#onTypedField3">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </TextField>
+      <Label fx:id="Label3" layoutX="14.0" layoutY="79.0" text="Label">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label6" layoutX="14.0" layoutY="179.0" text="Label">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label5" layoutX="14.0" layoutY="147.0" text="Label">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TextField5" layoutX="151.0" layoutY="143.0" onKeyTyped="#onTypedField5">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="TextField4" layoutX="151.0" layoutY="110.0" onKeyTyped="#onTypedField4">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </TextField>
+      <Label fx:id="Label4" layoutX="14.0" layoutY="114.0" text="Label">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TextField7" layoutX="151.0" layoutY="206.0" onKeyTyped="#onTypedField7">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </TextField>
+      <Label fx:id="Label7" layoutX="14.0" layoutY="210.0" text="Label">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TextField8" layoutX="151.0" layoutY="238.0" onKeyTyped="#onTypedField8">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </TextField>
+      <Label fx:id="Label8" layoutX="14.0" layoutY="242.0" text="Label">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonSave" layoutX="352.0" layoutY="10.0" mnemonicParsing="false" onAction="#onClickedSave" prefHeight="26.0" prefWidth="112.0" text="Save">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Button>
+      <ComboBox fx:id="ComboBox6" layoutX="151.0" layoutY="175.0" prefHeight="25.0" prefWidth="186.0" />
+      <TextField fx:id="TextField6" layoutX="151.0" layoutY="174.0" onKeyTyped="#onTypedField6">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

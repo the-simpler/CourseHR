@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="354.0" prefWidth="438.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HRInformationSystem.controller.RegistrationController">
+    <children>
+        <Label layoutX="14.0" layoutY="26.0" text="Nickname">
+            <font>
+                <Font name="Times New Roman Bold" size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="15.0" layoutY="62.0" text="Password">
+            <font>
+                <Font name="Times New Roman Bold" size="15.0" />
+            </font>
+        </Label>
+        <TextField fx:id="EditNickname" layoutX="142.0" layoutY="22.0" minHeight="-Infinity" prefHeight="26.0" prefWidth="149.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <PasswordField fx:id="EditPassword" layoutX="142.0" layoutY="58.0" onKeyTyped="#onTypeConfirm" />
+      <PasswordField fx:id="EditConfirmPassword" layoutX="142.0" layoutY="92.0" onInputMethodTextChanged="#onFillConfirm" onKeyTyped="#onTypeConfirm" />
+      <CheckBox fx:id="CheckManager" layoutX="15.0" layoutY="128.0" mnemonicParsing="false" onAction="#onClickedManager" text="Manager">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </CheckBox>
+      <PasswordField fx:id="EditSecretCode" layoutX="200.0" layoutY="123.0" />
+      <TextField fx:id="EditName" layoutX="143.0" layoutY="154.0" minHeight="-Infinity" prefHeight="26.0" prefWidth="149.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="EditSurname" layoutX="143.0" layoutY="185.0" minHeight="-Infinity" prefHeight="26.0" prefWidth="149.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="EditAge" layoutX="144.0" layoutY="218.0" minHeight="-Infinity" prefHeight="26.0" prefWidth="149.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <ComboBox fx:id="ComboSkills" layoutX="143.0" layoutY="252.0" prefWidth="150.0" />
+      <TextField fx:id="EditEducation" layoutX="143.0" layoutY="286.0" minHeight="-Infinity" prefHeight="26.0" prefWidth="149.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="EditExperience" layoutX="143.0" layoutY="318.0" minHeight="-Infinity" prefHeight="26.0" prefWidth="149.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+        <Button fx:id="ButtonRegistration" layoutX="317.0" layoutY="22.0" mnemonicParsing="false" onAction="#onEndRegistration" text="Registration">
+            <font>
+                <Font name="Times New Roman Bold" size="14.0" />
+            </font>
+        </Button>
+      <Label layoutX="14.0" layoutY="95.0" text="Confirm Password">
+         <font>
+            <Font name="Times New Roman Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="LabelCode" layoutX="113.0" layoutY="128.0" text="Secret Code">
+         <font>
+            <Font name="Times New Roman Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="LabelName" layoutX="12.0" layoutY="158.0" text="Name">
+         <font>
+            <Font name="Times New Roman Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="LabelSurname" layoutX="12.0" layoutY="189.0" text="Surname">
+         <font>
+            <Font name="Times New Roman Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="LabelError" layoutX="299.0" layoutY="96.0" text="Passwords do not match" textFill="RED" />
+      <Label fx:id="LabelAge" layoutX="12.0" layoutY="222.0" text="Age">
+         <font>
+            <Font name="Times New Roman Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="LabelSkills" layoutX="12.0" layoutY="255.0" text="Main Skill">
+         <font>
+            <Font name="Times New Roman Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="LabelEducation" layoutX="12.0" layoutY="290.0" text="Education">
+         <font>
+            <Font name="Times New Roman Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="LabelExperience" layoutX="12.0" layoutY="322.0" text="Experience (year)">
+         <font>
+            <Font name="Times New Roman Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="317.0" layoutY="58.0" mnemonicParsing="false" onAction="#onBackClicked" prefHeight="26.0" prefWidth="94.0" text="Back">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

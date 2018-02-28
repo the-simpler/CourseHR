@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="436.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HRInformationSystem.controller.AdminController">
+   <children>
+      <TableView fx:id="tableView" fixedCellSize="30.0" layoutX="14.0" layoutY="103.0" prefHeight="282.0" prefWidth="569.0">
+        <columns>
+            <TableColumn fx:id="Column1" prefWidth="75.0" text="Column X" />
+            <TableColumn fx:id="Column2" prefWidth="75.0" text="Column X" />
+            <TableColumn fx:id="Column3" prefWidth="75.0" text="Column X" />
+            <TableColumn fx:id="Column4" prefWidth="75.0" text="Column X" />
+            <TableColumn fx:id="Column5" prefWidth="75.0" text="Column X" />
+            <TableColumn fx:id="Column6" prefWidth="75.0" text="Column X" />
+            <TableColumn fx:id="Column7" prefWidth="75.0" text="Column X" />
+            <TableColumn fx:id="Column8" prefWidth="75.0" text="Column X" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <Button fx:id="AddButton" layoutX="329.0" layoutY="61.0" mnemonicParsing="false" onAction="#onClickedAdd" prefHeight="26.0" prefWidth="97.0" text="Add">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="EditButton" layoutX="16.0" layoutY="61.0" mnemonicParsing="false" onAction="#onClickedEdit" prefHeight="26.0" prefWidth="97.0" text="Edit">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="DeleteButoon" layoutX="486.0" layoutY="61.0" mnemonicParsing="false" onAction="#onClickedDelete" prefHeight="26.0" prefWidth="97.0" text="Delete">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="RefreshButton" layoutX="173.0" layoutY="61.0" mnemonicParsing="false" onAction="#onClickedRefresh" prefHeight="26.0" prefWidth="97.0" text="Refresh">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="112.0" layoutY="14.0" mnemonicParsing="false" onAction="#onClickedManager" prefHeight="26.0" prefWidth="76.0" text="Manager">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="506.0" layoutY="14.0" mnemonicParsing="false" onAction="#onClickedRequest" prefHeight="26.0" prefWidth="76.0" text="Request">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="EditButton1" layoutX="15.0" layoutY="14.0" mnemonicParsing="false" onAction="#onClickedClient" prefHeight="26.0" prefWidth="76.0" text="Client">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="311.0" layoutY="14.0" mnemonicParsing="false" onAction="#onClickedSkills" prefHeight="26.0" prefWidth="76.0" text="Skills">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="214.0" layoutY="14.0" mnemonicParsing="false" onAction="#onClickedUser" prefHeight="26.0" prefWidth="76.0" text="User">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Button>
+      <Separator layoutY="40.0" prefHeight="16.0" prefWidth="601.0" />
+      <Button layoutX="412.0" layoutY="14.0" mnemonicParsing="false" onAction="#onClickedPosition" prefHeight="26.0" prefWidth="76.0" text="Position">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="BackButton" layoutX="311.0" layoutY="396.0" mnemonicParsing="false" onAction="#onClickedBack" prefHeight="26.0" prefWidth="126.0" text="Back">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button cancelButton="true" layoutX="457.0" layoutY="396.0" mnemonicParsing="false" onAction="#onCancelClicked" prefHeight="26.0" prefWidth="126.0" text="Cancel">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

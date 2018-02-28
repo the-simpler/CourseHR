@@ -1,0 +1,126 @@
+
+Request ID: 7
+Request Description: I want to work
+Request Manager: Ivanov Ivan
+Request Client: Petrov Petya
+Request Position: Programmer
+Request Status: accept
+
+
+Request ID: 15
+Request Description: asdqw
+Request Manager: Ivanov Ivan
+Request Client: Petrov Petya
+Request Position: Programmer
+Request Status: decline
+
+
+Request ID: 8
+Request Description: Best Position
+Request Manager: Ivanov Ivan
+Request Client: Petrov Petya
+Request Position: Business Analytic
+Request Status: decline
+
+
+Request ID: 17
+Request Description: asdasdadadasd
+Request Manager: Ivanov Ivan
+Request Client: Petrov Petya
+Request Position: Business Analytic
+Request Status: waiting
+
+
+Request ID: 12
+Request Description: 12
+Request Manager: Alexandrov Alexander
+Request Client: Petrov Petya
+Request Position: System Administrator
+Request Status: accept
+
+
+Request ID: 1
+Request Description: Good person
+Request Manager: Alexandrov Alexander
+Request Client: Petrov Petya
+Request Position: Worker
+Request Status: accept
+
+
+Request ID: 2
+Request Description: Person
+Request Manager: Alexandrov Alexander
+Request Client: Petrov Petya
+Request Position: Worker
+Request Status: accept
+
+
+Request ID: 10
+Request Description: 12
+Request Manager: Vasilievich Vasiliyev
+Request Client: Petrov Petya
+Request Position: System Administrator
+Request Status: accept
+
+
+Request ID: 11
+Request Description: 12
+Request Manager: Vasilievich Vasiliyev
+Request Client: Petrov Petya
+Request Position: System Administrator
+Request Status: decline
+
+
+Request ID: 6
+Request Description: Some Person
+Request Manager: Vasilievich Vasiliyev
+Request Client: Petrov Petya
+Request Position: Worker
+Request Status: decline
+
+
+Request ID: 16
+Request Description: asdasdadadasd
+Request Manager: Vasilievich Vasiliyev
+Request Client: Petrov Petya
+Request Position: Business Analytic
+Request Status: waiting
+
+
+Request ID: 3
+Request Description: superman
+Request Manager: Zhitkovsky Zhenya
+Request Client: Petrov Petya
+Request Position: System Administrator
+Request Status: decline
+
+
+Request ID: 13
+Request Description: 12
+Request Manager: Zhitkovsky Zhenya
+Request Client: Petrov Petya
+Request Position: System Administrator
+Request Status: accept
+
+
+Request ID: 14
+Request Description: wqwq
+Request Manager: Zhitkovsky Zhenya
+Request Client: Petrov Petya
+Request Position: Worker
+Request Status: decline
+
+
+Request ID: 5
+Request Description: The Best Person!!
+Request Manager: Zhitkovsky Zhenya
+Request Client: Petrov Petya
+Request Position: Business Analytic
+Request Status: decline
+
+
+
+Number of accepted requests: 6
+Number of declined requests: 7
+Number of ALL requests: 15
+Number of expected requests: 2

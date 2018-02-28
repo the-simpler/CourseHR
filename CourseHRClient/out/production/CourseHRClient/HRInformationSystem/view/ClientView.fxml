@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="348.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HRInformationSystem.controller.ClientController">
+   <children>
+      <Label fx:id="welcomeLabel" layoutX="123.0" layoutY="15.0" style="-fx-background-color: aqua;" text="Label">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="descriptionText" layoutX="11.0" layoutY="193.0" prefHeight="85.0" prefWidth="575.0">
+         <font>
+            <Font name="Times New Roman" size="12.0" />
+         </font>
+      </TextArea>
+      <Label layoutX="123.0" layoutY="46.0" text="Name:">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="nameLabel" layoutX="210.0" layoutY="46.0" style="-fx-background-color: BISQUE;" text="Label">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="274.0" layoutY="46.0" text="Age:">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="271.0" layoutY="83.0" text="Skill:">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="123.0" layoutY="83.0" text="Surname:">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="surnameLabel" layoutX="210.0" layoutY="83.0" style="-fx-background-color: BISQUE;" text="Label">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="skillLabel" layoutX="319.0" layoutY="83.0" style="-fx-background-color: BISQUE;" text="Label">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="ageLabel" layoutX="319.0" layoutY="46.0" style="-fx-background-color: BISQUE;" text="Label">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="432.0" layoutY="83.0" text="Experience:">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="435.0" layoutY="46.0" text="Education:">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="experienceLabel" layoutX="524.0" layoutY="83.0" style="-fx-background-color: BISQUE;" text="Label">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="educationLabel" layoutX="524.0" layoutY="46.0" style="-fx-background-color: BISQUE;" text="Label">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="518.0" layoutY="11.0" mnemonicParsing="false" onAction="#onClickedEdit" text="Edit">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="requestButton" layoutX="13.0" layoutY="113.0" mnemonicParsing="false" onAction="#onClickedRequest" prefHeight="26.0" prefWidth="99.0" text="My Requests">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font></Button>
+      <Button layoutX="13.0" layoutY="315.0" mnemonicParsing="false" onAction="#onClickedSend" prefHeight="26.0" prefWidth="82.0" text="Send">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font></Button>
+      <Button layoutX="505.0" layoutY="315.0" mnemonicParsing="false" onAction="#onClickedBack" prefHeight="26.0" prefWidth="82.0" text="Back">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font></Button>
+      <Label layoutX="13.0" layoutY="287.0" text="Position: ">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="positionCombo" layoutX="84.0" layoutY="284.0" prefWidth="150.0" />
+      <TableView fx:id="requestTable" layoutX="118.0" layoutY="113.0" prefHeight="75.0" prefWidth="467.0">
+        <columns>
+          <TableColumn fx:id="descriptionColumn" prefWidth="75.0" text="description" />
+          <TableColumn fx:id="positionColumn" prefWidth="75.0" text="position" />
+            <TableColumn fx:id="statusColumn" prefWidth="75.0" text="status" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <Label layoutX="12.0" layoutY="161.0" text="Description:">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
